@@ -8,15 +8,13 @@
 </script>
 
 <template>
-  <button @click="increaseCounter($event, 1000)">{{count}}</button>
+ <ul>
+  <li>Hello World</li>
+  <li>Hello World</li>
+  <li>Hello World</li>
+  <li>Hello World</li>
+ </ul>
 </template>
 
 <style scoped>
-button{
-  background-color: lightblue;
-  border: none;
-  border-radius: 5px;
-  min-width: 25px;
-  padding: 8px 10px;
-}
 </style>
